@@ -1,3 +1,4 @@
+using CleanArch.Data;
 using CleanArch.MVC.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,6 +32,11 @@ namespace CleanArch.MVC
                 options.UseSqlServer(
                     Configuration.GetConnectionString("UniversityIdentityDBConnection")));
             services.AddDatabaseDeveloperPageExceptionFilter();
+
+            services.AddDbContext<UniversityDBContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("UniversityDBConnection"));
+            });
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
