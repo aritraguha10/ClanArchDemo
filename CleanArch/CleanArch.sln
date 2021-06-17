@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArch.UI.Mvc", "CleanAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.MVC", "CleanArch.MVC\CleanArch.MVC.csproj", "{7B0C0FD0-0485-4A1C-98EB-5BCBBD3C26A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Data", "ClassLibrary1\CleanArch.Data.csproj", "{1E7A305C-0DF5-434B-9DF6-4B6939CCFE92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Data", "ClassLibrary1\CleanArch.Data.csproj", "{1E7A305C-0DF5-434B-9DF6-4B6939CCFE92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain", "CleanArch.Domain1\CleanArch.Domain.csproj", "{00E4163D-B008-4DAE-809D-05F47116DCB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain1\CleanArch.Domain.csproj", "{00E4163D-B008-4DAE-809D-05F47116DCB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{93723B7E-A22D-40D8-BAC8-E349F0E67064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{93723B7E-A22D-40D8-BAC8-E349F0E67064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

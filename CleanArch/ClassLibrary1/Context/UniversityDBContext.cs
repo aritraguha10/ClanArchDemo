@@ -4,15 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CleanArch.Data
+namespace CleanArch.Data.Context
 {
-    public class UniversityDBContext : DbContext
+    public class UniversityDBContext: DbContext
     {
         public UniversityDBContext(DbContextOptions options): base(options)
         {
 
         }
 
-        public DbSet<Course> Courses { get; set; }
+        public DbSet<Course> courses { get; set; }
     }
 }

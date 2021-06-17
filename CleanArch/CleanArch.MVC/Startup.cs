@@ -1,4 +1,5 @@
 using CleanArch.Data;
+using CleanArch.Data.Context;
 using CleanArch.MVC.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
